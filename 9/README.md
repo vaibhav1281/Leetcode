@@ -30,3 +30,21 @@
 <p><strong>Follow up:</strong></p>
 
 <p>Coud you solve&nbsp;it without converting the integer to a string?</p>
+
+
+## Solution
+```C++
+class Solution {
+public:
+    bool isPalindrome(int x) {        
+        if(x < 0) return  false;
+        long long rev = 0, temp = x, lastDigit;
+        while(x){
+            lastDigit = x % 10;
+            rev = rev * 10 + lastDigit;
+            x /=10;
+        }
+        return (temp == rev);
+    }
+};
+```
