@@ -66,7 +66,7 @@ M             1000</pre>
 </ul>
 
 ## Solution
-```C++
+```Cpp
 class Solution {
 public:
     int romanToInt(string s) {
