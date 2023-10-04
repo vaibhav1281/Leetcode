@@ -3,20 +3,20 @@
 
 <p><strong>Example 1:</strong></p>
 
-<pre><strong>Input:</strong> 121
+<pre><strong>Input:</strong> x = 121
 <strong>Output:</strong> true
 </pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre><strong>Input:</strong> -121
+<pre><strong>Input:</strong> x = -121
 <strong>Output:</strong> false
 <strong>Explanation:</strong> From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 </pre>
 
 <p><strong>Example 3:</strong></p>
 
-<pre><strong>Input:</strong> 10
+<pre><strong>Input:</strong> x = 10
 <strong>Output:</strong> false
 <strong>Explanation:</strong> Reads 01 from right to left. Therefore it is not a palindrome.
 </pre>
