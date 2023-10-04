@@ -33,7 +33,7 @@
 
 
 ## Solution
-```C++
+```Cpp
 class Solution {
 public:
     bool isPalindrome(int x) {        
