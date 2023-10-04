@@ -21,6 +21,12 @@
 <strong>Explanation:</strong> Reads 01 from right to left. Therefore it is not a palindrome.
 </pre>
 
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>-2<sup>31</sup> &lt;= x &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
+
 <p><strong>Follow up:</strong></p>
 
 <p>Coud you solve&nbsp;it without converting the integer to a string?</p>
