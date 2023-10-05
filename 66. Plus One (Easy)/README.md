@@ -39,4 +39,23 @@ Thus, the result should be [1,0].
 
 ## Solution
 ```C++
+class Solution {
+public:
+    vector<int> plusOne(vector<int>& digits) {
+        int carry = 1, n = digits.size() - 1;        
+        for(int i = n; i >= 0; i--){
+            digits[i] += carry;
+            if(digits[i] < 10){
+                carry = 0;
+                break;
+            } else {
+                digits[i] = 0;
+            }
+        }
+        if(carry == 1){
+            digits.insert(digits.begin(), 1);
+        }
+        return digits;
+    }   
+};
 ```
