@@ -2,6 +2,7 @@
 If you find this repository helpful or inspiring, please consider giving it a ⭐. Your support is greatly appreciated! 😊 </br>
 ### [My Leetcode-Profile](https://leetcode.com/Vaibhav_saroj/)
 
+## Tag- Math
 \# | Title | Difficulty | Solution
 ---|---|---|---
 0 | Bahot Krna Baki Hai😅 | Bahot Hard ♾️ | Pta nhi 😖
@@ -16,3 +17,11 @@ If you find this repository helpful or inspiring, please consider giving it a �
 2652 | Sum Multiples | Easy❌ | [Solution](https://github.com/vaibhav1281/Leetcode/blob/main/2652.%20Sum%20Multiples/README.md)
 -# | Title | Dificulty | [Solution]()
 
+## Tag- Array (Upcoming 😊)
+\# | Title | Difficulty | Solution
+---|---|---|---
+
+
+## Tag- Searching - Sorting (Upcoming 😊)
+\# | Title | Difficulty | Solution
+---|---|---|---
