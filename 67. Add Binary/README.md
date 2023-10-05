@@ -19,7 +19,7 @@
 	<li>Each string does not contain leading zeros except for the zero itself.</li>
 </ul>
 
-## Solution
+## [Solution](https://leetcode.com/problems/add-binary/solutions/4132549/67-add-binary-runtime-3ms-easy-c-solution/)
 ```c++
 class Solution {
 public:
