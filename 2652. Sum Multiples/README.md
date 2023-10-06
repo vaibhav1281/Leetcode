@@ -23,3 +23,19 @@
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>3</sup></code></li>
 </ul>
+
+## Solution 
+```c++
+class Solution {
+public:
+    int sumOfMultiples(int n) {
+        int sum = 0;
+        for(int i = 1; i <= n; i++){
+            if(i % 3 == 0 || i % 5 == 0 || i % 7 == 0){
+                sum += i;
+            }
+        }
+        return sum;
+    }
+};
+```
