@@ -29,7 +29,29 @@
 	<li><code>0 &lt;= n &lt;= 5 * 10<sup>6</sup></code></li>
 </ul>
 
-## Solution 
+## Solution - Sieve of Eratosthenes
 ```c++
+class Solution {
+public:
+    int countPrimes(int n) {
+        vector<bool>isPrime(n, true);
 
+        for (int i = 2; i * i < n; i++) {
+            if (isPrime[i]) {
+                for (int j = i * i; j < n; j += i) { 
+                    isPrime[j] = false;
+                }
+            }
+        }
+
+        int count = 0;
+        for (int i = 2; i < n; i++) {
+            if (isPrime[i]) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+};
 ```
