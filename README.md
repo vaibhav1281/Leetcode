@@ -4,7 +4,7 @@ If you find this repository helpful or inspiring, please consider giving it a тн
 
 \# | Title | Tags/Topics | Difficulty | Solution
 ---|---|---|---|---
-1 |  |  |  | 
+1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array | Easy | [Solution](https://github.com/vaibhav1281/Leetcode/tree/main/1.%20Two%20Sum)
 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | Easy | [Solution](https://github.com/vaibhav1281/Leetcode/blob/main/9.%20Palindrome%20Number%20(Easy)/README.md)
 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Hash Table, Math, String | Easy | [Solution](https://github.com/vaibhav1281/Leetcode/blob/main/13.%20Roman%20to%20Integer%20(Easy)/README.md)
 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | Array, Math | Easy | [Solution](https://github.com/vaibhav1281/Leetcode/blob/main/66.%20Plus%20One%20(Easy)/README.md)
