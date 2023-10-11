@@ -30,3 +30,25 @@
 	<li><code>-10<sup>4</sup> &lt;= bx1 &lt;= bx2 &lt;= 10<sup>4</sup></code></li>
 	<li><code>-10<sup>4</sup> &lt;= by1 &lt;= by2 &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+## Solution
+```C++
+class Solution {
+public:
+    int computeArea(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
+        int Area1 = (ax2 -ax1) * (ay2 - ay1);
+        int Area2 = (bx2 - bx1) * (by2 - by1);
+
+        int overLapX1 = max(ax1, bx1);
+        int overLapX2 = min(ax2, bx2);
+        int overLapY1 = max(ay1, by1);
+        int overLapY2 = min(ay2, by2);
+
+        int overlapArea = max(0, overLapX2 - overLapX1) * max(0, overLapY2 - overLapY1);
+
+        int totalArea = Area1 + Area2 - overlapArea;
+
+        return totalArea;
+    }
+};
+```
