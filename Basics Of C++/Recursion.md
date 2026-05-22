@@ -17,12 +17,12 @@ int main(){
     name(1,5); // Call the function to print "Name" 5 times
     return 0;
 }
-
-// In this example, the function `name` takes two parameters: `i` (the current count) and `n` (the total number of times to print "Name").
-// The function checks if `i` is greater than `n`. If it is, it returns 0, which serves as the base case to stop the recursion. 
-// Otherwise, it prints "Name" and calls itself with `i + 1`, which is the recursive case that continues to call the function until the base case is reached.  
-
 ```
+#### In this example, the function `name` takes two parameters: `i` (the current count) and `n` (the total number of times to print "Name").
+#### The function checks if `i` is greater than `n`. If it is, it returns 0, which serves as the base case to stop the recursion. 
+#### Otherwise, it prints "Name" and calls itself with `i + 1`, which is the recursive case that continues to call the function until the base case is reached.  
+
+
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
@@ -39,3 +39,4 @@ int main(){
     return 0;
 }
 
+```
