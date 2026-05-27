@@ -1,14 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void printName(int n){
-    if(n==0){
-        return;
-    }
-    cout<<"BIgGuy"<<endl;
-    printName(n-1);
+int sumAll(int a,int n){
+    
+    if(a>n)return 0;
+    return a+sumAll(a+1,n);
 }
 int main(){
-    printName(10);
-    return 0;
+    cout<<sumAll(1,5); // This will now print 15 
 }
